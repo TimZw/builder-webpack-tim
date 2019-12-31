@@ -1,19 +1,16 @@
 {
-  "name": "builder-webpack",
+  "name": "builder-webpack-tim",
   "version": "1.0.0",
-  "description": "",
+  "description": "webpack项目构建器.",
   "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
   "scripts": {
     "test": "nyc mocha",
     "eslint": "eslint ./lib --fix"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "TIM",
+  "private": false,
+  "license": "MIT",
   "devDependencies": {
     "assert": "^2.0.0",
     "babel-eslint": "^10.0.3",
